@@ -18,7 +18,7 @@ body {
     color: grey;
 }
 .index ul li {
-    width: 150px;
+    width: 170px;
     margin: 15px;
     padding: 15px;
 }
@@ -26,13 +26,18 @@ body {
     text-decoration: none;
     color: darkkhaki;
 }
-.active, .index ul li:hover {
+.index ul li:hover {
     background-color: dimgrey;
     border-radius: 3px;
 }
-/*label.logo {
+
+.logo {
     font-size: 35px;
-    color: black;
+    color: rgb(228, 173, 173);
     font-style: oblique ;
+    position: relative;
+    margin: auto;
+    text-align: left;
+
    
-}*/
+}
