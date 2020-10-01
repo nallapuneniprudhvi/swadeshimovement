@@ -6,27 +6,45 @@
 body {
     
     font-style: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-.index {
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.main {
     text-align: center;
     background: cornsilk;
 }
-.index ul {
+.main .l1 {
     display: inline-flex;
     list-style-type: none;
     color: grey;
 }
-.index ul li {
-    width: 170px;
-    margin: 15px;
-    padding: 15px;
+#gandhi {
+    float: right;
+    height: 50%;
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+
 }
-.index ul li a {
+.main ul li {
+    width: 150px;
+    margin: 5px 30px 5px;
+    padding: 10px;
+}
+.main ul li a {
     text-decoration: none;
     color: darkkhaki;
 }
-.index ul li:hover {
+.active, .main ul li:hover {
     background-color: dimgrey;
     border-radius: 3px;
 }
@@ -37,7 +55,23 @@ body {
     font-style: oblique ;
     position: relative;
     margin: auto;
-    text-align: left;
+    text-align: left;  
+}
+.subm {
+    display: none;
+}
+.main ul li:hover .subm{
+    display: inline-block;
+    position: absolute;
+    background: cornsilk;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
-   
+}
+.main ul li:hover .subm ul{
+    display: block;
+    margin: 10px;
+}
+.tab {
+    padding-right: 30px;
 }
