@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    font-style: sans-serif;
+
+}
+.index {
+    text-align: center;
+    background: cornsilk;
+}
+.index ul {
+    display: inline-flex;
+    list-style-type: none;
+    color: grey;
+}
+.index ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.index ul li a {
+    text-decoration: none;
+    color: darkkhaki;
+}
+.active, .index ul li:hover {
+    background-color: dimgrey;
+    border-radius: 3px;
+}
+label.logo {
+    font-size: 35px;
+    color: black;
+    font-style: oblique ;
+   
+}
