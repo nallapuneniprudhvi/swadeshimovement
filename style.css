@@ -101,7 +101,7 @@ p {
 }
 .footer p {
     text-align: right;
-    color: maroon;
+    color: rgb(48, 39, 39);
     opacity: 1.2;
     float:right;
 }
