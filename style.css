@@ -22,7 +22,7 @@ p {
 .main {
     text-align: center;
     background: cornsilk;
-    opacity: 0.9;
+    opacity: 1.0;
 }
 .main .l1 {
     display: inline-flex;
@@ -91,4 +91,16 @@ p {
 }
 .tab {
     padding-right: 30px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 0px;
+}
+.footer p {
+    text-align: right;
+    color: maroon;
+    opacity: 1.2;
 }
