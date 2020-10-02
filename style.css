@@ -8,6 +8,7 @@ body {
     font-style: sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 }
 p {
@@ -21,6 +22,7 @@ p {
 .main {
     text-align: center;
     background: cornsilk;
+    opacity: 0.9;
 }
 .main .l1 {
     display: inline-flex;
@@ -34,6 +36,21 @@ p {
     padding-left: 10px;
     padding-top: 10px;
 
+}
+#dada {
+    float: left;
+    height: 20%;
+    width: 20%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right:10px;
+}
+.gsp {
+    float: right;
+    height: 20%;
+    width:20%;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .main ul li {
     width: 150px;
@@ -51,7 +68,7 @@ p {
 
 .logo {
     font-size: 35px;
-    color: rgb(228, 173, 173);
+    color: darkkhaki;
     font-style: oblique ;
     position: relative;
     margin: auto;
