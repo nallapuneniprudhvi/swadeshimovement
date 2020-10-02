@@ -103,4 +103,5 @@ p {
     text-align: right;
     color: maroon;
     opacity: 1.2;
+    float:right;
 }
